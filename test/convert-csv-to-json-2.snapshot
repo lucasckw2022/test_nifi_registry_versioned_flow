@@ -616,6 +616,76 @@
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.9.2"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "b1931024-4b80-3380-92a1-011ffdecc3e9",
+          "identifier" : "f0704f02-91b6-33aa-91af-8e453000797d",
+          "name" : "RouteText",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 14.50075758731208,
+            "y" : 135.77985551036141
+          },
+          "properties" : {
+            "Routing Strategy" : "Route to each matching Property Name",
+            "Ignore Leading/Trailing Whitespace" : "true",
+            "Character Set" : "UTF-8",
+            "Ignore Case" : "false"
+          },
+          "propertyDescriptors" : {
+            "Routing Strategy" : {
+              "displayName" : "Routing Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Routing Strategy",
+              "sensitive" : false
+            },
+            "Ignore Leading/Trailing Whitespace" : {
+              "displayName" : "Ignore Leading/Trailing Whitespace",
+              "identifiesControllerService" : false,
+              "name" : "Ignore Leading/Trailing Whitespace",
+              "sensitive" : false
+            },
+            "Matching Strategy" : {
+              "displayName" : "Matching Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Matching Strategy",
+              "sensitive" : false
+            },
+            "Character Set" : {
+              "displayName" : "Character Set",
+              "identifiesControllerService" : false,
+              "name" : "Character Set",
+              "sensitive" : false
+            },
+            "Ignore Case" : {
+              "displayName" : "Ignore Case",
+              "identifiesControllerService" : false,
+              "name" : "Ignore Case",
+              "sensitive" : false
+            },
+            "Grouping Regular Expression" : {
+              "displayName" : "Grouping Regular Expression",
+              "identifiesControllerService" : false,
+              "name" : "Grouping Regular Expression",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.RouteText",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
             "artifact" : "nifi-update-attribute-nar",
             "group" : "org.apache.nifi",
             "version" : "1.9.2"
