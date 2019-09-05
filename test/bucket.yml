@@ -1,0 +1,6 @@
+flows:
+  898d5e8f-7c91-4c08-80f8-a1817b46d64b: {ver: 1, file: convert-csv-to-json.snapshot,
+    comments: v2, author: anonymous, created: 1567669910103, flowName: convert-csv-to-json,
+    flowDesc: convert-csv-to-json}
+layoutVer: 1
+bucketId: 4b0bccb0-c82b-4e88-af99-cf200424783d
